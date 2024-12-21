@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/C#/.vs/C#
+/C#/AbstractFactory/obj
+/C#/Builder/obj
+/C#/FactoryMethod/obj
+/C#/Prototype/obj
+/C#/SingletonPattern/obj

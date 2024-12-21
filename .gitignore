@@ -8,3 +8,20 @@
 /C#/FactoryMethod/obj
 /C#/Prototype/obj
 /C#/SingletonPattern/obj
+/C#/Adapter/obj
+/C#/Bridge/obj
+/C#/Chain of Responsibility/obj
+/C#/Command/obj
+/C#/Composite/obj
+/C#/Decorator/obj
+/C#/Facade/obj
+/C#/FlyWeight/obj
+/C#/Iterator/obj
+/C#/Mediator/obj
+/C#/Memento/obj
+/C#/Observer/obj
+/C#/Proxy/obj
+/C#/State/obj
+/C#/Strategy/obj
+/C#/Template Method/obj
+/C#/Visitor/obj

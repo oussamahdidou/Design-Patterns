@@ -1,10 +1,17 @@
-﻿namespace AbstractFactory
+﻿using AbstractFactory.Factories;
+
+namespace AbstractFactory
 {
     internal class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            IProductFactory menproductsFactory = new ProductFactoryMen();
+            IProductFactory womenproductsFactory = new ProductFactoryWomen();
+            menproductsFactory.CreateNewPerfum();
+            womenproductsFactory.CreateNewPerfum();
+            menproductsFactory.CreateNewOutfit();
+            womenproductsFactory.CreateNewOutfit();
         }
     }
 }

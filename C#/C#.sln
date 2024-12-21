@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{6DCEA977-4981-4475-8F29-4D7E6629FD33}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreationalPatterns", "CreationalPatterns", "{6D0A9B90-A929-49ED-8DCF-E1605F329387}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D588F9A7-03BB-4F1F-A722-25CABFF57166} = {6D0A9B90-A929-49ED-8DCF-E1605F329387}
+		{D724A96E-C38D-4213-B386-390C4B8DAA6F} = {6D0A9B90-A929-49ED-8DCF-E1605F329387}
+		{D66B2CE8-2E73-4210-8C40-5A0562C30585} = {6D0A9B90-A929-49ED-8DCF-E1605F329387}
+		{C84FD8C5-045A-45DF-B7C3-3D01CD4E217A} = {6D0A9B90-A929-49ED-8DCF-E1605F329387}
+		{6DCEA977-4981-4475-8F29-4D7E6629FD33} = {6D0A9B90-A929-49ED-8DCF-E1605F329387}
 	EndGlobalSection
 EndGlobal
